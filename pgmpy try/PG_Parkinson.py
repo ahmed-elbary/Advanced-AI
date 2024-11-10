@@ -12,7 +12,7 @@ import networkx as nx
 from pgmpy.models import BayesianNetwork
 
 # %%
-file_path = 'C:/Users/Student/Documents/Module Dev Containers/AAI-assignment/mycode/parkinsons_data-VOICE-features.csv'  # Replace with your local file path
+file_path = 'C:/Users/amroh/Desktop/Ahmed/AAI/AAI-assignment/mycode/parkinsons_data-VOICE-features.csv'  # Replace with your local file path
 parkinson_df = pd.read_csv(file_path)
 
 # %%
