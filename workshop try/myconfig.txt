@@ -1,0 +1,5 @@
+name:Dementia
+
+random_variables:Group(G);Visit(V);Age(A);EDUC(ED);MMSE(MM);CDR(CD);eTIV(eT);nWBV(nW);ASF(AS)
+
+structure:P(G);P(V|G);P(A|G);P(ED|G);P(MM|G);P(CD|G);P(eT|G);P(nW|G);P(AS|G)
