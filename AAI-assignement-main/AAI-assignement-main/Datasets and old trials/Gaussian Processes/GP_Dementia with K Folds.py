@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 # Load the dataset
 # Replace 'your_dataset.csv' with the path to your actual dataset
-data = pd.read_csv(r'C:\Users\amroh\Desktop\Ahmed\AAI\AAI-assignment\Datasets and old trials\dementia_data-MRI-features.csv')
+data = pd.read_csv(r'AAI-assignement-main/AAI-assignement-main/Datasets and old trials/dementia_data-MRI-features.csv')
 
 # Check column names to ensure 'Gender' is correct
 print("Columns in the dataset:", data.columns)
