@@ -12,7 +12,7 @@ import networkx as nx
 from pgmpy.models import BayesianNetwork
 
 # %%
-file_path = r'C:\Users\amroh\Desktop\Ahmed\AAI\AAI-assignment\AAI-assignement-main\AAI-assignement-main\Datasets and old trials\dementia_data-MRI-features.csv'  # Replace with your local file path
+file_path = r'C:\CloudDriveSpace\OneDrive\29385647@students.lincoln.ac.uk\Desktop\AAI-assignment\Datasets and old trials\dementia_data-MRI-features.csv'  # Replace with your local file path
 dementia_df = pd.read_csv(file_path)
 
 # %%

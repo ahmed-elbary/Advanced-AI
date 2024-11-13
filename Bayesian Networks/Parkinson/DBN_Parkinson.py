@@ -12,7 +12,7 @@ import networkx as nx
 from pgmpy.models import BayesianNetwork
 
 # %%
-file_path = r'C:\Users\Student\Downloads\AAI-assignment-main\AAI-assignment-main\Datasets and old trials\parkinsons_data-VOICE-features.csv'  # Replace with your local file path
+file_path = r'C:\CloudDriveSpace\OneDrive\29385647@students.lincoln.ac.uk\Desktop\AAI-assignment\Datasets and old trials\parkinsons_data-VOICE-features.csv'  # Replace with your local file path
 parkinson_df = pd.read_csv(file_path)
 
 # %%
@@ -63,8 +63,6 @@ parkinson_df['spread2'] = pd.cut(parkinson_df['spread2'], bins=4, labels=False)
 parkinson_df['D2'] = pd.cut(parkinson_df['D2'], bins=4, labels=False)
 parkinson_df['PPE'] = pd.cut(parkinson_df['PPE'], bins=4, labels=False)
 
-# Display the transformed DataFrame
-parkinson_df.head(10)
 
 # %%
 # Split data into training and testing sets

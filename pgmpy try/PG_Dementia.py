@@ -12,7 +12,7 @@ import networkx as nx
 from pgmpy.models import BayesianNetwork
 
 # %%
-file_path = 'C:/Users/Student/Documents/Module Dev Containers/AAI-assignment/mycode/dementia_data-MRI-features.csv'  # Replace with your local file path
+file_path = r'C:\CloudDriveSpace\OneDrive\29385647@students.lincoln.ac.uk\Desktop\AAI-assignment\Datasets and old trials\dementia_data-MRI-features.csv'  # Replace with your local file path
 dementia_df = pd.read_csv(file_path)
 
 # %%
@@ -129,12 +129,12 @@ print(f"Testing Time: {test_time:.4f} seconds")
 # Slightly adjust evidence values to test sensitivity
 adjusted_query_evidence = {
     'Visit': 2,
-    'Age': get_bin(60, age_bins),  # Adjust age to see if results differ
+    'Age': get_bin(80, age_bins),  # Adjust age to see if results differ
     'EDUC': 16,
     'SES': 3,
-    'MMSE': get_bin(30, mmse_bins),  # Adjust MMSE slightly
+    'MMSE': get_bin(20, mmse_bins),  # Adjust MMSE slightly
     'CDR': get_bin(1, cdr_bins),   # Adjust CDR slightly
-    'eTIV': get_bin(1200, etiv_bins),
+    'eTIV': get_bin(1800, etiv_bins),
     'nWBV': get_bin(0.696, nwbv_bins),
     'ASF': get_bin(0.034, asf_bins)
 }
